@@ -7,9 +7,9 @@ try:
 	while True:
 		a = int(input("       Chute um número: "))
 		if a > e:
-			print("    Valor Acima do correto!")
+			print("    Chute um valor mais baixo!")
 		elif a < e:
-			print("    Valor Abaixo do correto!")
+			print("    Chute um valor mais alto!")
 		elif a == e:
 			print("      = = Voce acertou! = =")
 			break
